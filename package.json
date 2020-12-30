@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A geographic guessing game in Vermont",
   "dependencies": {
-    "cypress": "^6.2.0",
     "leaflet": "^1.7.1",
     "leaflet-pip": "^1.1.0",
     "react": "^17.0.1",
@@ -23,7 +22,9 @@
   "author": "Joshua Burke",
   "license": "MIT",
   "homepage": "https://github.com/BurlingtonCodeAcademy/geo-vermonter#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress": "^6.2.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
